@@ -67,6 +67,41 @@ python Gestion_Datod_Paises.py
 python3 Gestion_Datod_Paises.py
 ```
 
+### Estructura del Sistema
+
+1. CARGA Y VALIDACIÓN
+   └─ cargar_paises_desde_csv()
+
+2. BÚSQUEDA Y FILTRADO
+   ├─ buscar_pais_por_nombre()
+   ├─ filtrar_por_continente()
+   ├─ filtrar_por_rango_poblacion()
+   └─ filtrar_por_rango_superficie()
+
+3. ORDENAMIENTO
+   ├─ ordenar_por_nombre()
+   ├─ ordenar_por_poblacion()
+   └─ ordenar_por_superficie()
+
+4. ESTADÍSTICAS
+   ├─ pais_con_mayor_poblacion()
+   ├─ pais_con_menor_poblacion()
+   ├─ promedio_poblacion()
+   ├─ promedio_superficie()
+   └─ cantidad_por_continente()
+
+5. VISUALIZACIÓN
+   ├─ mostrar_pais()
+   ├─ mostrar_lista_paises()
+   └─ mostrar_estadisticas()
+
+6. INTERFAZ
+   ├─ menu_principal()
+   ├─ ejecutar_opcion()
+   └─ leer_entero()
+
+
+
 ### Navegación por el Menú
 
 Al iniciar el programa:
@@ -314,6 +349,19 @@ Total de países: 195
 ```
  ¡Gracias por usar el sistema! Hasta luego.
 ```
+
+### Conclusión 
+
+Este proyecto representa una aplicación práctica y completa de los conceptos de Programación 1, demostrando que con estructuras de datos simples pero bien organizadas, se pueden crear sistemas funcionales y útiles. El sistema es extensible y proporciona una base sólida para futuros desarrollos más complejos.
+
+Conceptos aplicados:
+
+Estructuras de datos (listas, diccionarios)
+Algoritmos de búsqueda, filtrado y ordenamiento
+Funciones con parámetros y valores de retorno
+Lectura de archivos CSV
+Validación de entrada del usuario
+Formateo de salida
 
 ---
 
